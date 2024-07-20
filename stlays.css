@@ -1,0 +1,345 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.vermelho{
+ top: 70px;
+    position: absolute;
+    z-index: 2;
+    left: 162px;
+    transform: rotate(380deg);
+}
+.verde{
+    top: -65px;
+    left: -30px;
+    z-index: 5;
+    position: absolute;
+}
+.branco{
+    top: -20px;
+    transform: rotate(340deg);
+    left: -200px;
+    z-index: 3;
+    position: absolute;
+    
+}
+.marron{
+    top: 160px;
+    z-index: 1;
+    transform: rotate(320deg);
+    left: -140px;
+    position: absolute;
+}
+.logo img {
+    width: 100px;
+    position: absolute;
+    left: 10px;
+}
+.cafe{
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    position: absolute;
+    top: 100px;
+  left: 20px;
+}
+h5{
+    color: rgb(141, 142, 142);
+    font-size: 15px;
+    position: absolute;
+    top: 280px;
+    left: 30px;
+}
+
+
+.buttom{
+
+    left: 70px;
+    position: absolute;
+    top: 380px;
+    background-color: #194B30;
+    height: 50px;
+    border-radius: 40px;
+    width: 150px;
+}
+a{
+  
+    font-family: fantasy;
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    position: absolute;
+      left: 30px;
+      top: 7px;
+}
+.buttom:hover{
+ background-color: transparent;
+ border:   2px solid #194B30;
+}
+a:hover{
+    color: #194B30;
+}
+
+.gradient{
+  height: 500px;
+    width: 500px;
+    position: absolute;
+    right: 97px;
+    top: 160px;
+    filter: blur(7.3rem);
+    border-radius: 100%;
+    background: linear-gradient(109deg, #194B30 15%, #194B30 50%,#194B30 85% );
+}
+
+.letras{
+    font-size: 20px;
+ left: 700px;
+  position: absolute;
+  color: #ffffff;
+  
+}
+.letras2{
+    font-size: 20px;
+    left: 800px;
+     position: absolute;
+     color: #ffffff;
+     
+   }
+   .letras3{
+    font-size: 20px;
+    left: 900px;
+     position: absolute;
+     color: #ffffff;
+     
+   }
+
+  .bord{
+    height: 350px;
+    width: 240px;
+    border: 2px solid #194B30;
+    position: absolute;
+    top: 1000px;
+    left: 250px;
+    border-radius: 10px;
+   
+  }
+  .bord2{
+    height: 350px;
+    width: 240px;
+    border: 2px solid #194B30;
+    position: absolute;
+    top: 1000px;
+    left: 550px;
+    border-radius: 10px;
+  }
+  .bord3{
+    height: 350px;
+    width: 240px;
+    border: 2px solid #194B30;
+    position: absolute;
+    top: 1000px;
+    left: 850px;
+  
+    border-radius: 10px;
+  }
+  h3{
+    padding: 20px;
+    font-family: sans-serif;
+      font-size: 16px;
+      text-align: center;
+
+  }
+  p{
+    color: rgb(141, 142, 142);
+    position: absolute;
+    left: 10px;
+  }
+  h4{
+    position: absolute;
+    top: 1470px;
+    font-family: "Anton", sans-serif;
+    left: 100px;
+    font-size: 50px;
+  }
+  .footer{
+    position: absolute;
+    top: 3000px;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+  }
+  h6{
+    position: absolute;
+    top: 1590px;
+    left: 100px;
+   font-size: 20px;
+   color: rgb(141, 142, 142);
+  }
+
+  .logooo{
+     border-radius: 30px;
+    position: absolute;
+    top: 1690px;
+    left: 800px;
+   width: 500px;
+  
+  }
+
+  .h8{
+      position: absolute;
+      top: 2200px;
+      left: 500px;
+     font-size: 40px;
+     color:#194B30;
+
+  }
+  .h9{
+    position: absolute;
+    top: 2320px;
+    left: 400px;
+   font-size: 20px;
+   color: rgb(141, 142, 142);
+
+}
+
+.out{
+  border-radius: 30px;
+  position: absolute;
+  top: 2750px;
+  left: 80px;
+ width: 530px;
+}
+
+
+.h10{
+
+  position: absolute;
+  top: 2690px;
+  left: 700px;
+
+
+}
+@media (max-width: 800px){
+
+  h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 70px;
+  left: 60px;
+}
+
+
+h5{
+  color: rgb(141, 142, 142);
+  font-size: 10px;
+  position: absolute;
+  top: 160px;
+  left: 50px;
+}
+
+.vermelho{
+  top: 120px;
+     position: absolute;
+     z-index: 2;
+     left: 330px;
+     transform: rotate(380deg);
+     width: 130px;
+ }
+ .verde{
+     top: 70px;
+     left: 260px;
+     z-index: 5;
+     position: absolute;
+     width: 190px;
+ }
+ .branco{
+  width: 170px;
+     top: 120px;
+     transform: rotate(340deg);
+     left: 200px;
+     z-index: 3;
+     position: absolute;
+     
+ }
+ .marron{
+  width: 100px;
+     top: 160px;
+     z-index: 1;
+     transform: rotate(320deg);
+     left: 200px;
+     position: absolute;
+   
+ }
+
+ .logo img {
+     width: 100px;
+     position: absolute;
+     right: 0px;
+     width: 150px;
+ }
+
+
+ .gradient{
+  height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 40px;
+    top: 190px;
+    filter: blur(7.3rem);
+    border-radius: 100%;
+    background: linear-gradient(109deg, #194B30 15%, #194B30 50%,#194B30 85% );
+}
+.buttom{
+
+  left: 100px;
+  position: absolute;
+  top: 480px;
+  background-color: #194B30;
+  height: 50px;
+  border-radius: 40px;
+  width: 150px;
+}
+
+.bord{
+  height: 100px;
+  width: 240px;
+  border: 2px solid #194B30;
+  position: absolute;
+  top: 1000px;
+  left: 10px;
+  border-radius: 10px;
+ 
+}
+.bord2{
+  height: 350px;
+  width: 240px;
+  border: 2px solid #194B30;
+  position: absolute;
+  top: 1000px;
+  left: 550px;
+  border-radius: 10px;
+}
+.bord3{
+  height: 350px;
+  width: 240px;
+  border: 2px solid #194B30;
+  position: absolute;
+  top: 1000px;
+  left: 850px;
+
+  border-radius: 10px
+}
+
+
+}
